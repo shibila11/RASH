@@ -1,15 +1,94 @@
 {
-  "Admin":{
-    
-  "userName":"shibila",
-  "password":1234
+  "Admin": {
+    "userName": "shibila",
+    "password": 1234
   },
-
-  
-
-
-  
   "users": [
-    
+    {
+      "id": "c98a",
+      "firstName": "fathima",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "839870"
+    }
+  ],
+  "products": [
+    {
+      "id": "swfcaf63316",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "wfvavg",
+      "price": 33,
+      "stock": null
+    },
+    {
+      "id": "swfcaf65364",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "wfvavg",
+      "price": 33,
+      "stock": 76
+    },
+    {
+      "id": "swfcaf42476",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "fhjnfgjn",
+      "price": 33,
+      "stock": 71
+    },
+    {
+      "id": "swfcaf43892",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "fhjnfgjn",
+      "price": 33,
+      "stock": 53
+    },
+    {
+      "id": "swfcaf30003",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "fhjnfgjn",
+      "price": 33,
+      "stock": 48
+    },
+    {
+      "id": "swfcaf2203",
+      "img": "img",
+      "title": "swfcaf",
+      "desc": "fhjnfgjn",
+      "price": 33,
+      "stock": 49
+    },
+    {
+      "id": "dfv23059",
+      "img": "img",
+      "title": "dfv",
+      "desc": "sdb",
+      "price": null,
+      "stock": 75
+    },
+    {
+      "id": "ssdv53499",
+      "img": "img",
+      "title": "ssdv",
+      "desc": "gedgvsd",
+      "price": 45,
+      "stock": 42
+    },
+    {
+      "id": "Ring58546",
+      "img": "/public/Ring.png",
+      "title": "Ring",
+      "desc": "Rose Gold",
+      "price": 145,
+      "stock": 47
+    }
+  ],
+  "types": [
+    {
+      "id": "f472"
+    }
   ]
 }

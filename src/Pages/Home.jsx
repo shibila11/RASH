@@ -8,7 +8,7 @@ function Home() {
     id: 1,
     title: "Golden Star",
     price: "$15",
-    img: "https://via.placeholder.com/300x200"
+    img: "/public/Ring.png"
   },
   {
     id: 2,
