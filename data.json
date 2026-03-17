@@ -10,85 +10,118 @@
       "lastName": "shibila",
       "email": "shibila@gmail.com",
       "password": "839870"
+    },
+    {
+      "id": "52db",
+      "firstName": "swdw",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "94d3",
+      "firstName": "shibin",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "123"
     }
   ],
   "products": [
     {
-      "id": "swfcaf63316",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "wfvavg",
-      "price": 33,
-      "stock": null
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
     },
     {
-      "id": "swfcaf65364",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "wfvavg",
-      "price": 33,
-      "stock": 76
+      "id": "Neckelace37687",
+      "img": "Neckelace.png",
+      "title": "Neckelace",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 71,
+      "stock": 84,
+      "type": "neckelace"
     },
     {
-      "id": "swfcaf42476",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "fhjnfgjn",
-      "price": 33,
-      "stock": 71
+      "id": "ChainBracelet89224",
+      "img": "chain.png",
+      "title": "Chain Bracelet",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 289,
+      "stock": 83,
+      "type": "Chain bracelet"
     },
     {
-      "id": "swfcaf43892",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "fhjnfgjn",
-      "price": 33,
-      "stock": 53
+      "id": "Bangles80504",
+      "img": "bangles.png",
+      "title": "Bangles",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 460,
+      "stock": 20,
+      "type": "Bangle"
     },
     {
-      "id": "swfcaf30003",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "fhjnfgjn",
-      "price": 33,
-      "stock": 48
+      "id": "NoseOrnaments59232",
+      "img": "nose ornaments.png",
+      "title": "Nose Ornaments",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 149,
+      "stock": 49,
+      "type": "Nose  Ornaments"
     },
     {
-      "id": "swfcaf2203",
-      "img": "img",
-      "title": "swfcaf",
-      "desc": "fhjnfgjn",
-      "price": 33,
-      "stock": 49
-    },
-    {
-      "id": "dfv23059",
-      "img": "img",
-      "title": "dfv",
-      "desc": "sdb",
-      "price": null,
-      "stock": 75
-    },
-    {
-      "id": "ssdv53499",
-      "img": "img",
-      "title": "ssdv",
-      "desc": "gedgvsd",
-      "price": 45,
-      "stock": 42
-    },
-    {
-      "id": "Ring58546",
-      "img": "/public/Ring.png",
-      "title": "Ring",
-      "desc": "Rose Gold",
-      "price": 145,
-      "stock": 47
+      "id": "Anklets69120",
+      "img": "anklets.png",
+      "title": "Anklets",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 62,
+      "stock": 72,
+      "type": "Anklets"
     }
   ],
   "types": [
     {
-      "id": "f472"
+      "id": "e3e6",
+      "type": "Rings"
+    },
+    {
+      "id": "9db7",
+      "type": "Bangle"
+    },
+    {
+      "id": "496b",
+      "type": "neckelace"
+    },
+    {
+      "id": "a272",
+      "type": "earrings"
+    },
+    {
+      "id": "f7c7",
+      "type": "Nose  Ornaments"
+    },
+    {
+      "id": "3cb8",
+      "type": "Anklets"
+    },
+    {
+      "id": "7dc7",
+      "type": "Anklets"
+    },
+    {
+      "id": "275e",
+      "type": "Locket"
+    },
+    {
+      "id": "a55e",
+      "type": "Chain"
+    },
+    {
+      "id": "b73d",
+      "type": "Chain bracelet"
     }
   ]
 }

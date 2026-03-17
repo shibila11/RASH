@@ -15,8 +15,24 @@ const getAdmin=()=>{
 const postType=(type)=>{
     return axios.post(typeurl,type)
 }
+  
+const getType=()=>{
+
+    return axios.get(typeurl)
+
+}
 
 
- export {getAdmin,postType};
+//update
+
+
+const putType=(data)=>{
+  return axios.put(typeurl,data)
+}
+
+ export {getAdmin,postType,getType,putType};
+
+
+
 
 

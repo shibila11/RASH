@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { getAdmin, postType } from '../Apiservices/Getadmin'  
+import { getAdmin, postType ,getType, putType} from '../Apiservices/Getadmin'  
 import { useNavigate } from 'react-router-dom'
-import { postProduct } from '../Apiservices/Productapi'
+import { postProduct,postProductTwo } from '../Apiservices/Productapi'
+import "./Admin.css"
+
 
 function Admin() {
 
@@ -10,7 +12,7 @@ function Admin() {
 
   let [isAdmin,setIsAdmin]=useState(false)
 
- 
+  let [fetchedType,setFetchedType]=useState([])     //declare for store in fetchedData in useEffect
 
 
   let navTo=useNavigate()
@@ -31,6 +33,27 @@ function Admin() {
    
 
    },[])
+
+   //get ornaments types
+
+   useEffect(()=>{
+
+   getType()    //axios in apiServices
+   .then(res=>{setFetchedType(res.data)
+
+    console.log(fetchedType,"we getting");
+    
+
+   })
+    
+   },[])
+
+   //checking update that value
+
+   useEffect(()=>{
+    console.log(fetchedType,"hello");
+    
+   },[fetchedType])
 
     useEffect(() => {
     console.log("Updated adminDtls:", adminDtls);
@@ -72,7 +95,7 @@ function Admin() {
 
  function addProduct(e){
   e.preventDefault()
-  let {img,title,desc,price}=e.target
+  let {img,title,desc,price,type}=e.target
   console.log(title.value);
 
   // create unique Id forproducts
@@ -85,6 +108,7 @@ function Admin() {
  let stock = Math.floor(Math.random() * 100)
 
 
+  console.log(img.value);
   
 
   const product = {
@@ -93,10 +117,11 @@ function Admin() {
     title: title.value,
     desc: desc.value,
     price: Number(price.value),
-    stock
+    stock,
+    type:type.value
   }
 
-  postProduct(product,"postPrdct() called")   //data post
+  postProductTwo(product,"postPrdct() called")   //data post
   .then(res=>console.log(res.data))
   .catch(err=>console.log(err)
   )
@@ -108,10 +133,13 @@ function Admin() {
   function  addTypes(e){
     e.preventDefault()
     let currentType=e.target.currentType.value;
-    postType(currentType)
-    .then(res=>console.log(res.data))
-    .catch(err=>console.log(err)
-    )
+    //  fetchedType.push(currentType)
+    const obj={type:currentType}
+
+   postType(obj)
+
+   e.target.reset()
+    
     
 
 
@@ -131,21 +159,30 @@ function Admin() {
     
     <form  onSubmit={addProduct} >
        <input type=""  placeholder='img'  name='img'/><br />
-       <input type="text"  placeholder='title'  name='title'/><br />
+       <label htmlFor="">Choosea types</label>
+       <select name="type"   required  >
+        <option value=""  disabled selected > Selected one</option>
+        {
+          fetchedType.map((item,i)=>{
+            return <option  value={item.type}>{item.type}</option>
+          })
+        }
+       </select><br />
+       <input type="text"  placeholder='title'  name='title' required /><br />
        <textarea type="text"  placeholder='desc' name='desc' /><br />
        <input type="text"  placeholder='price'  name='price'/><br />
        <button>Add</button>
     </form>
     
-     <button  onClick={(()=>{setIsAdmin(false)})}>Admin logout</button>
+     <button  className="logout" onClick={(()=>{setIsAdmin(false)})}>Admin logout</button>
      
      
 
      <h1>TYPE OF ORNAMENTS</h1>
       
      <form onSubmit={addTypes}>
-       <input type="text" name='currentType'/><br />
-       <button>TYPES</button>
+       <input type="text" name='currentType' placeholder='types'/><br />
+       <button>OK</button>
 
 
 

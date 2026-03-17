@@ -14,7 +14,7 @@ function Home() {
     id: 2,
     title: "Crystal Ball",
     price: "$20",
-    img: "https://via.placeholder.com/300x200"
+    img: "/src/assets/img/ring2.png"
   },
   {
     id: 3,
