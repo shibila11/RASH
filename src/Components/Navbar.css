@@ -1,0 +1,90 @@
+body{
+  margin: 0%;
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Brand name */
+.navbar-name {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* Nav list */
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items */
+.nav-item,
+.navbar-nav li {
+  position: relative;
+}
+
+/* Links */
+.navbar-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav a:hover {
+  color: #f39c12;
+}
+
+/* Underline animation */
+.navbar-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  background-color: #f39c12;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav a:hover::after {
+  width: 100%;
+}
+
+/* Admin button styling */
+.navbar-nav li:last-child a {
+  border: 1px solid #f39c12;
+  padding: 6px 14px;
+  border-radius: 4px;
+}
+
+.navbar-nav li:last-child a:hover {
+  background-color: #f39c12;
+  color: #111;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

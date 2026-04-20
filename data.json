@@ -1,0 +1,177 @@
+{
+  "Admin": {
+    "userName": "shibila",
+    "password": 1234
+  },
+  "users": [
+    {
+      "id": "c98a",
+      "firstName": "fathima",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "839870"
+    },
+    {
+      "id": "52db",
+      "firstName": "swdw",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "94d3",
+      "firstName": "shibin",
+      "lastName": "shibila",
+      "email": "shibila@gmail.com",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Rings44766",
+      "img": "/ring3.png",
+      "title": "Rings",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 183,
+      "stock": 57,
+      "type": "Rings"
+    },
+    {
+      "id": "Neckelace37687",
+      "img": "Neckelace.png",
+      "title": "Neckelace",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 71,
+      "stock": 84,
+      "type": "neckelace"
+    },
+    {
+      "id": "ChainBracelet89224",
+      "img": "chain.png",
+      "title": "Chain Bracelet",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 289,
+      "stock": 83,
+      "type": "Chain bracelet"
+    },
+    {
+      "id": "Bangles80504",
+      "img": "bangles.png",
+      "title": "Bangles",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 460,
+      "stock": 20,
+      "type": "Bangle"
+    },
+    {
+      "id": "NoseOrnaments59232",
+      "img": "nose ornaments.png",
+      "title": "Nose Ornaments",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 149,
+      "stock": 49,
+      "type": "Nose  Ornaments"
+    },
+    {
+      "id": "Anklets69120",
+      "img": "anklets.png",
+      "title": "Anklets",
+      "desc": "qwertyuioogvhdsbnbnskajolklakddkqodk djwjfoopdpfopfwpqw idopfofoofpf fdopofpoffpopf odpfopopf",
+      "price": 62,
+      "stock": 72,
+      "type": "Anklets"
+    }
+  ],
+  "types": [
+    {
+      "id": "e3e6",
+      "img": "/ring3.png",
+      "type": "Rings"
+    },
+    {
+      "id": "9db7",
+      "img": "bangles.png",
+      "type": "Bangle"
+    },
+    {
+      "id": "496b",
+      "img": "Neckelace.png",
+      "type": "neckelace"
+    },
+    {
+      "id": "a272",
+      "img": "earrings.png",
+      "type": "earrings"
+    },
+    {
+      "id": "f7c7",
+      "img": "nose ornaments.png",
+      "type": "Nose  Ornaments"
+    },
+    {
+      "id": "7dc7",
+      "img": "chain.png",
+      "type": "Anklets"
+    },
+    {
+      "id": "275e",
+      "img": "chain.png",
+      "type": "Locket"
+    },
+    {
+      "id": "a55e",
+      "img": "chain.png",
+      "type": "Chain"
+    },
+    {
+      "id": "b73d",
+      "img": "chain.png",
+      "type": "Chain bracelet"
+    }
+  ]
+}
